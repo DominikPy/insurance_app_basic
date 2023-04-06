@@ -74,6 +74,13 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+
+input{
+  border: solid 1px white;
+  border-radius: 5px;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -86,6 +93,7 @@ form {
 
 #create {
   border: solid 2px white;
+  border-radius: 5px
 }
 #create:hover {
   border: solid 2px aquamarine;
