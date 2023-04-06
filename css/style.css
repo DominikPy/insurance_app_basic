@@ -1,0 +1,85 @@
+* {
+  background-color: rgb(31, 31, 31);
+  color: white;
+  font-family: "Fira Code";
+}
+a {
+  text-decoration: none;
+}
+
+th,
+td {
+  border: solid 2px white;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+#head {
+  display: flex;
+  grid-template-columns: 3;
+}
+
+#logo {
+  grid-row: 1;
+  grid-column: 1;
+  background-color: rgb(107, 107, 107);
+  border: solid 2px (107, 107, 107);
+  border-radius: 6px;
+  color: rgb(31, 31, 31);
+  padding: 2rem;
+  clip-path: polygon(0% 0%, 82% 0, 100% 50%, 82% 100%, 0% 100%);
+  padding-right: 3rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-left: 1rem;
+}
+
+nav > button {
+  border: solid 2px white;
+  border-radius: 5px;
+}
+
+nav > button:hover {
+  border: solid 2px aquamarine;
+}
+
+a {
+  font-size: medium;
+  display: block;
+  padding: 1rem;
+}
+
+#active {
+  text-decoration: underline;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  padding-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+#create {
+  border: solid 2px white;
+}
+#create:hover {
+  border: solid 2px aquamarine;
+  color: aquamarine;
+}
