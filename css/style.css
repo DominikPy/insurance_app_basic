@@ -70,10 +70,18 @@ footer {
   justify-content: center;
   align-items: baseline;
 }
-
-#form {
+#form{
+  display: flex;
+  justify-content: center;
+}
+form {
   display: flex;
   flex-direction: column;
+}
+
+#form_button{
+  display: flex;
+  justify-content: center;
 }
 
 #create {
