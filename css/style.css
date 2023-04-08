@@ -39,19 +39,17 @@ nav {
   padding-left: 1rem;
 }
 
-nav > button {
+nav > form > button {
   border: solid 2px white;
   border-radius: 5px;
-}
-
-nav > button:hover {
-  border: solid 2px aquamarine;
-}
-
-a {
   font-size: medium;
   display: block;
   padding: 1rem;
+}
+
+nav > form > button:hover {
+  border: solid 2px aquamarine;
+  color: aquamarine;
 }
 
 #active {
