@@ -1,5 +1,5 @@
 const sub_button = document.getElementById("create");
-client_arr = [];
+let client_arr = [];
 
 function read() {
   //read data from form
